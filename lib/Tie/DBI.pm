@@ -4,7 +4,7 @@ use strict;
 use vars qw($VERSION);
 use Carp;
 use DBI;
-$VERSION = '1.02';
+$VERSION = '1.03';
 
 BEGIN {
   eval {
@@ -96,7 +96,7 @@ sub TIEHASH {
 
 	$dbh = $class->connect($dsn,$self->{user},$self->{password},
                                { AutoCommit=>$self->{AUTOCOMMIT},
-				 ChopBlanks=>1,
+				 #ChopBlanks=>1, # Removed per RT 19833 This may break legacy code.
 				 PrintError=>0,
 				 Warn=>$self->{WARN},
 			       }
