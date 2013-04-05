@@ -4,7 +4,7 @@
       "Lincoln D. Stein <lds@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "ExtUtils::MakeMaker version 6.64, CPAN::Meta::Converter version 2.120351",
    "license" : [
       "perl_5"
    ],
@@ -40,7 +40,7 @@
          }
       }
    },
-   "release_status" : "testing",
+   "release_status" : "stable",
    "resources" : {
       "homepage" : "http://wiki.github.com/toddr/Tie-DBI/",
       "license" : [
@@ -50,5 +50,5 @@
          "url" : "http://github.com/toddr/Tie-DBI"
       }
    },
-   "version" : "1.05_01"
+   "version" : "1.06"
 }
